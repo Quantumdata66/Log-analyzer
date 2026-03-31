@@ -18,13 +18,13 @@ Top active IP addresses
 HTTP status code distribution
 
 3. **Detection Rules**
-</High Traffic Detection>
+- High Traffic Detection>
 Flags IPs with unusually high request volume
 
-</404 Error Detection>
+- 404 Error Detection
 Detects IPs generating excessive failed requests (possible scanning or broken clients)
 
-</Burst Detection>
+- Burst Detection
 Identifies IPs making >30 requests within 60 seconds
 Uses time-window analysis to detect spikes in 
 
